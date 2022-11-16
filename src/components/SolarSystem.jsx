@@ -15,7 +15,9 @@ class SolarSystem extends Component {
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />
-        {planetList}
+        <div>
+          {planetList}
+        </div>
       </div>
     );
   }
